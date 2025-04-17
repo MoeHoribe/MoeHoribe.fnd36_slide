@@ -1,0 +1,36 @@
+.slideShow {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;  */
+  top: 0px;
+  left: 110px;
+}
+
+.slides {
+  list-style-type: none;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin: 0 60px;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100px;
+  background-color: lightpink;
+}
